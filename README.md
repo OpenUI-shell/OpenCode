@@ -1,0 +1,2 @@
+# OpenCode
+Simple file editor.
