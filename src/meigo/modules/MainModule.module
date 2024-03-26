@@ -1,6 +1,16 @@
 {
   "props": [],
   "components": {
+    "dirChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 192.0,
+      "y": 32.0,
+      "props": {
+        "title": "Выбери папку для сохранения",
+        "inputNode": "",
+        "actionNode": ""
+      }
+    },
     "fileChooser": {
       "type": "script\\FileChooserScript",
       "x": 48,
