@@ -3,19 +3,21 @@
   "components": {
     "dirChooser": {
       "type": "script\\DirectoryChooserScript",
-      "x": 192.0,
-      "y": 32.0,
+      "x": 656.0,
+      "y": 304.0,
       "props": {
-        "title": "Выбери папку для сохранения",
+        "title": "Выберите папку для сохранения файла",
         "inputNode": "",
         "actionNode": ""
       }
     },
     "fileChooser": {
       "type": "script\\FileChooserScript",
-      "x": 48,
-      "y": 16,
+      "x": 544,
+      "y": 240,
       "props": {
+        "initialDirectory": "",
+        "initialFileName": "Choose file",
         "filterName": "Все файлы",
         "filterExtensions": "*.*",
         "filterAny": "0",
